@@ -8,7 +8,11 @@
 
 #import "ARViewController.h"
 
+#import "ARButtonBlock.h"
+
 @interface ARViewController ()
+
+@property (weak, nonatomic) IBOutlet ARButtonBlock *button;
 
 @end
 
@@ -17,13 +21,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSString *string = @"Touched!";
+
+	[self.button setTouchUpInsideBlock:^{
+        [[[UIAlertView alloc] initWithTitle:string message:nil delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
+    }];
 }
 
 @end

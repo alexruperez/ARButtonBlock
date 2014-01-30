@@ -13,8 +13,7 @@
 		D5F6A7B3189AC83700FE6AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7B1189AC83700FE6AD2 /* InfoPlist.strings */; };
 		D5F6A7B5189AC83700FE6AD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F6A7B4189AC83700FE6AD2 /* main.m */; };
 		D5F6A7B9189AC83700FE6AD2 /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F6A7B8189AC83700FE6AD2 /* ARAppDelegate.m */; };
-		D5F6A7BC189AC83700FE6AD2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7BA189AC83700FE6AD2 /* Main_iPhone.storyboard */; };
-		D5F6A7BF189AC83700FE6AD2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7BD189AC83700FE6AD2 /* Main_iPad.storyboard */; };
+		D5F6A7BC189AC83700FE6AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7BA189AC83700FE6AD2 /* Main.storyboard */; };
 		D5F6A7C2189AC83700FE6AD2 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F6A7C1189AC83700FE6AD2 /* ARViewController.m */; };
 		D5F6A7C4189AC83700FE6AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7C3189AC83700FE6AD2 /* Images.xcassets */; };
 		D5F6A7CB189AC83700FE6AD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F6A7CA189AC83700FE6AD2 /* XCTest.framework */; };
@@ -22,6 +21,7 @@
 		D5F6A7CD189AC83700FE6AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F6A7AC189AC83700FE6AD2 /* UIKit.framework */; };
 		D5F6A7D5189AC83700FE6AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7D3189AC83700FE6AD2 /* InfoPlist.strings */; };
 		D5F6A7D7189AC83700FE6AD2 /* ButtonBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F6A7D6189AC83700FE6AD2 /* ButtonBlockTests.m */; };
+		D5F6A7E9189AD14600FE6AD2 /* ARButtonBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F6A7E8189AD14600FE6AD2 /* ARButtonBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,7 @@
 		D5F6A7B6189AC83700FE6AD2 /* ButtonBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonBlock-Prefix.pch"; sourceTree = "<group>"; };
 		D5F6A7B7189AC83700FE6AD2 /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
 		D5F6A7B8189AC83700FE6AD2 /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
-		D5F6A7BB189AC83700FE6AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		D5F6A7BE189AC83700FE6AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D5F6A7BB189AC83700FE6AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5F6A7C0189AC83700FE6AD2 /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
 		D5F6A7C1189AC83700FE6AD2 /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
 		D5F6A7C3189AC83700FE6AD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +54,8 @@
 		D5F6A7D2189AC83700FE6AD2 /* ButtonBlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonBlockTests-Info.plist"; sourceTree = "<group>"; };
 		D5F6A7D4189AC83700FE6AD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5F6A7D6189AC83700FE6AD2 /* ButtonBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonBlockTests.m; sourceTree = "<group>"; };
+		D5F6A7E7189AD14600FE6AD2 /* ARButtonBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARButtonBlock.h; sourceTree = "<group>"; };
+		D5F6A7E8189AD14600FE6AD2 /* ARButtonBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARButtonBlock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +115,10 @@
 		D5F6A7AE189AC83700FE6AD2 /* ButtonBlock */ = {
 			isa = PBXGroup;
 			children = (
+				D5F6A7E0189AC87E00FE6AD2 /* ARButtonBlock */,
 				D5F6A7B7189AC83700FE6AD2 /* ARAppDelegate.h */,
 				D5F6A7B8189AC83700FE6AD2 /* ARAppDelegate.m */,
-				D5F6A7BA189AC83700FE6AD2 /* Main_iPhone.storyboard */,
-				D5F6A7BD189AC83700FE6AD2 /* Main_iPad.storyboard */,
+				D5F6A7BA189AC83700FE6AD2 /* Main.storyboard */,
 				D5F6A7C0189AC83700FE6AD2 /* ARViewController.h */,
 				D5F6A7C1189AC83700FE6AD2 /* ARViewController.m */,
 				D5F6A7C3189AC83700FE6AD2 /* Images.xcassets */,
@@ -154,6 +155,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		D5F6A7E0189AC87E00FE6AD2 /* ARButtonBlock */ = {
+			isa = PBXGroup;
+			children = (
+				D5F6A7E7189AD14600FE6AD2 /* ARButtonBlock.h */,
+				D5F6A7E8189AD14600FE6AD2 /* ARButtonBlock.m */,
+			);
+			path = ARButtonBlock;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -232,9 +242,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5F6A7BF189AC83700FE6AD2 /* Main_iPad.storyboard in Resources */,
 				D5F6A7C4189AC83700FE6AD2 /* Images.xcassets in Resources */,
-				D5F6A7BC189AC83700FE6AD2 /* Main_iPhone.storyboard in Resources */,
+				D5F6A7BC189AC83700FE6AD2 /* Main.storyboard in Resources */,
 				D5F6A7B3189AC83700FE6AD2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F6A7E9189AD14600FE6AD2 /* ARButtonBlock.m in Sources */,
 				D5F6A7B5189AC83700FE6AD2 /* main.m in Sources */,
 				D5F6A7C2189AC83700FE6AD2 /* ARViewController.m in Sources */,
 				D5F6A7B9189AC83700FE6AD2 /* ARAppDelegate.m in Sources */,
@@ -287,20 +297,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D5F6A7BA189AC83700FE6AD2 /* Main_iPhone.storyboard */ = {
+		D5F6A7BA189AC83700FE6AD2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D5F6A7BB189AC83700FE6AD2 /* Base */,
 			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		D5F6A7BD189AC83700FE6AD2 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5F6A7BE189AC83700FE6AD2 /* Base */,
-			);
-			name = Main_iPad.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		D5F6A7D3189AC83700FE6AD2 /* InfoPlist.strings */ = {
@@ -393,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ButtonBlock/ButtonBlock-Prefix.pch";
 				INFOPLIST_FILE = "ButtonBlock/ButtonBlock-Info.plist";
@@ -406,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ButtonBlock/ButtonBlock-Prefix.pch";
 				INFOPLIST_FILE = "ButtonBlock/ButtonBlock-Info.plist";
