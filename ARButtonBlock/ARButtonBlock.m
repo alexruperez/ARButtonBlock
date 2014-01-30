@@ -8,13 +8,9 @@
 
 #import "ARButtonBlock.h"
 
-@interface ARButtonBlock ()
-
-@property (copy, nonatomic) ARButtonTouchUpInsideBlock touchUpInsideBlock;
-
-@end
-
 @implementation ARButtonBlock
+
+@synthesize touchUpInsideBlock = _touchUpInsideBlock;
 
 - (void)setTouchUpInsideBlock:(ARButtonTouchUpInsideBlock)touchUpInsideBlock
 {

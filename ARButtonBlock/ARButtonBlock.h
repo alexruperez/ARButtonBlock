@@ -14,6 +14,8 @@ typedef void(^ARButtonTouchUpInsideBlock)(ARButtonBlock *button);
 
 @interface ARButtonBlock : UIButton
 
+@property (copy, nonatomic) ARButtonTouchUpInsideBlock touchUpInsideBlock;
+
 - (void)setTouchUpInsideBlock:(ARButtonTouchUpInsideBlock)touchUpInsideBlock;
 
 - (void)performTouchUpInsideBlock;
