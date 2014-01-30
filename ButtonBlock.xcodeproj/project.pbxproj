@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5F6A7A9189AC83700FE6AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F6A7A8189AC83700FE6AD2 /* Foundation.framework */; };
+		D5F6A7AB189AC83700FE6AD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F6A7AA189AC83700FE6AD2 /* CoreGraphics.framework */; };
+		D5F6A7AD189AC83700FE6AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F6A7AC189AC83700FE6AD2 /* UIKit.framework */; };
+		D5F6A7B3189AC83700FE6AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7B1189AC83700FE6AD2 /* InfoPlist.strings */; };
+		D5F6A7B5189AC83700FE6AD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F6A7B4189AC83700FE6AD2 /* main.m */; };
+		D5F6A7B9189AC83700FE6AD2 /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F6A7B8189AC83700FE6AD2 /* ARAppDelegate.m */; };
+		D5F6A7BC189AC83700FE6AD2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7BA189AC83700FE6AD2 /* Main_iPhone.storyboard */; };
+		D5F6A7BF189AC83700FE6AD2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7BD189AC83700FE6AD2 /* Main_iPad.storyboard */; };
+		D5F6A7C2189AC83700FE6AD2 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F6A7C1189AC83700FE6AD2 /* ARViewController.m */; };
+		D5F6A7C4189AC83700FE6AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7C3189AC83700FE6AD2 /* Images.xcassets */; };
+		D5F6A7CB189AC83700FE6AD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F6A7CA189AC83700FE6AD2 /* XCTest.framework */; };
+		D5F6A7CC189AC83700FE6AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F6A7A8189AC83700FE6AD2 /* Foundation.framework */; };
+		D5F6A7CD189AC83700FE6AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F6A7AC189AC83700FE6AD2 /* UIKit.framework */; };
+		D5F6A7D5189AC83700FE6AD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5F6A7D3189AC83700FE6AD2 /* InfoPlist.strings */; };
+		D5F6A7D7189AC83700FE6AD2 /* ButtonBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F6A7D6189AC83700FE6AD2 /* ButtonBlockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5F6A7CE189AC83700FE6AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F6A79D189AC83700FE6AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F6A7A4189AC83700FE6AD2;
+			remoteInfo = ButtonBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5F6A7A5189AC83700FE6AD2 /* ButtonBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F6A7A8189AC83700FE6AD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5F6A7AA189AC83700FE6AD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5F6A7AC189AC83700FE6AD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5F6A7B0189AC83700FE6AD2 /* ButtonBlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonBlock-Info.plist"; sourceTree = "<group>"; };
+		D5F6A7B2189AC83700FE6AD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5F6A7B4189AC83700FE6AD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5F6A7B6189AC83700FE6AD2 /* ButtonBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonBlock-Prefix.pch"; sourceTree = "<group>"; };
+		D5F6A7B7189AC83700FE6AD2 /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		D5F6A7B8189AC83700FE6AD2 /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		D5F6A7BB189AC83700FE6AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D5F6A7BE189AC83700FE6AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D5F6A7C0189AC83700FE6AD2 /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		D5F6A7C1189AC83700FE6AD2 /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		D5F6A7C3189AC83700FE6AD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5F6A7C9189AC83700FE6AD2 /* ButtonBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F6A7CA189AC83700FE6AD2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D5F6A7D2189AC83700FE6AD2 /* ButtonBlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonBlockTests-Info.plist"; sourceTree = "<group>"; };
+		D5F6A7D4189AC83700FE6AD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5F6A7D6189AC83700FE6AD2 /* ButtonBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonBlockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5F6A7A2189AC83700FE6AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F6A7AB189AC83700FE6AD2 /* CoreGraphics.framework in Frameworks */,
+				D5F6A7AD189AC83700FE6AD2 /* UIKit.framework in Frameworks */,
+				D5F6A7A9189AC83700FE6AD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F6A7C6189AC83700FE6AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F6A7CB189AC83700FE6AD2 /* XCTest.framework in Frameworks */,
+				D5F6A7CD189AC83700FE6AD2 /* UIKit.framework in Frameworks */,
+				D5F6A7CC189AC83700FE6AD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5F6A79C189AC83700FE6AD2 = {
+			isa = PBXGroup;
+			children = (
+				D5F6A7AE189AC83700FE6AD2 /* ButtonBlock */,
+				D5F6A7D0189AC83700FE6AD2 /* ButtonBlockTests */,
+				D5F6A7A7189AC83700FE6AD2 /* Frameworks */,
+				D5F6A7A6189AC83700FE6AD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F6A7A6189AC83700FE6AD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F6A7A5189AC83700FE6AD2 /* ButtonBlock.app */,
+				D5F6A7C9189AC83700FE6AD2 /* ButtonBlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F6A7A7189AC83700FE6AD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F6A7A8189AC83700FE6AD2 /* Foundation.framework */,
+				D5F6A7AA189AC83700FE6AD2 /* CoreGraphics.framework */,
+				D5F6A7AC189AC83700FE6AD2 /* UIKit.framework */,
+				D5F6A7CA189AC83700FE6AD2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5F6A7AE189AC83700FE6AD2 /* ButtonBlock */ = {
+			isa = PBXGroup;
+			children = (
+				D5F6A7B7189AC83700FE6AD2 /* ARAppDelegate.h */,
+				D5F6A7B8189AC83700FE6AD2 /* ARAppDelegate.m */,
+				D5F6A7BA189AC83700FE6AD2 /* Main_iPhone.storyboard */,
+				D5F6A7BD189AC83700FE6AD2 /* Main_iPad.storyboard */,
+				D5F6A7C0189AC83700FE6AD2 /* ARViewController.h */,
+				D5F6A7C1189AC83700FE6AD2 /* ARViewController.m */,
+				D5F6A7C3189AC83700FE6AD2 /* Images.xcassets */,
+				D5F6A7AF189AC83700FE6AD2 /* Supporting Files */,
+			);
+			path = ButtonBlock;
+			sourceTree = "<group>";
+		};
+		D5F6A7AF189AC83700FE6AD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5F6A7B0189AC83700FE6AD2 /* ButtonBlock-Info.plist */,
+				D5F6A7B1189AC83700FE6AD2 /* InfoPlist.strings */,
+				D5F6A7B4189AC83700FE6AD2 /* main.m */,
+				D5F6A7B6189AC83700FE6AD2 /* ButtonBlock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5F6A7D0189AC83700FE6AD2 /* ButtonBlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F6A7D6189AC83700FE6AD2 /* ButtonBlockTests.m */,
+				D5F6A7D1189AC83700FE6AD2 /* Supporting Files */,
+			);
+			path = ButtonBlockTests;
+			sourceTree = "<group>";
+		};
+		D5F6A7D1189AC83700FE6AD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5F6A7D2189AC83700FE6AD2 /* ButtonBlockTests-Info.plist */,
+				D5F6A7D3189AC83700FE6AD2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5F6A7A4189AC83700FE6AD2 /* ButtonBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F6A7DA189AC83700FE6AD2 /* Build configuration list for PBXNativeTarget "ButtonBlock" */;
+			buildPhases = (
+				D5F6A7A1189AC83700FE6AD2 /* Sources */,
+				D5F6A7A2189AC83700FE6AD2 /* Frameworks */,
+				D5F6A7A3189AC83700FE6AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonBlock;
+			productName = ButtonBlock;
+			productReference = D5F6A7A5189AC83700FE6AD2 /* ButtonBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5F6A7C8189AC83700FE6AD2 /* ButtonBlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F6A7DD189AC83700FE6AD2 /* Build configuration list for PBXNativeTarget "ButtonBlockTests" */;
+			buildPhases = (
+				D5F6A7C5189AC83700FE6AD2 /* Sources */,
+				D5F6A7C6189AC83700FE6AD2 /* Frameworks */,
+				D5F6A7C7189AC83700FE6AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F6A7CF189AC83700FE6AD2 /* PBXTargetDependency */,
+			);
+			name = ButtonBlockTests;
+			productName = ButtonBlockTests;
+			productReference = D5F6A7C9189AC83700FE6AD2 /* ButtonBlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5F6A79D189AC83700FE6AD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alejandro Rupérez";
+				TargetAttributes = {
+					D5F6A7C8189AC83700FE6AD2 = {
+						TestTargetID = D5F6A7A4189AC83700FE6AD2;
+					};
+				};
+			};
+			buildConfigurationList = D5F6A7A0189AC83700FE6AD2 /* Build configuration list for PBXProject "ButtonBlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5F6A79C189AC83700FE6AD2;
+			productRefGroup = D5F6A7A6189AC83700FE6AD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F6A7A4189AC83700FE6AD2 /* ButtonBlock */,
+				D5F6A7C8189AC83700FE6AD2 /* ButtonBlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5F6A7A3189AC83700FE6AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F6A7BF189AC83700FE6AD2 /* Main_iPad.storyboard in Resources */,
+				D5F6A7C4189AC83700FE6AD2 /* Images.xcassets in Resources */,
+				D5F6A7BC189AC83700FE6AD2 /* Main_iPhone.storyboard in Resources */,
+				D5F6A7B3189AC83700FE6AD2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F6A7C7189AC83700FE6AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F6A7D5189AC83700FE6AD2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5F6A7A1189AC83700FE6AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F6A7B5189AC83700FE6AD2 /* main.m in Sources */,
+				D5F6A7C2189AC83700FE6AD2 /* ARViewController.m in Sources */,
+				D5F6A7B9189AC83700FE6AD2 /* ARAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F6A7C5189AC83700FE6AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F6A7D7189AC83700FE6AD2 /* ButtonBlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5F6A7CF189AC83700FE6AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F6A7A4189AC83700FE6AD2 /* ButtonBlock */;
+			targetProxy = D5F6A7CE189AC83700FE6AD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5F6A7B1189AC83700FE6AD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F6A7B2189AC83700FE6AD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5F6A7BA189AC83700FE6AD2 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F6A7BB189AC83700FE6AD2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D5F6A7BD189AC83700FE6AD2 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F6A7BE189AC83700FE6AD2 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D5F6A7D3189AC83700FE6AD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F6A7D4189AC83700FE6AD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5F6A7D8189AC83700FE6AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5F6A7D9189AC83700FE6AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5F6A7DB189AC83700FE6AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonBlock/ButtonBlock-Prefix.pch";
+				INFOPLIST_FILE = "ButtonBlock/ButtonBlock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5F6A7DC189AC83700FE6AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonBlock/ButtonBlock-Prefix.pch";
+				INFOPLIST_FILE = "ButtonBlock/ButtonBlock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D5F6A7DE189AC83700FE6AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ButtonBlock.app/ButtonBlock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonBlock/ButtonBlock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ButtonBlockTests/ButtonBlockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D5F6A7DF189AC83700FE6AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ButtonBlock.app/ButtonBlock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonBlock/ButtonBlock-Prefix.pch";
+				INFOPLIST_FILE = "ButtonBlockTests/ButtonBlockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5F6A7A0189AC83700FE6AD2 /* Build configuration list for PBXProject "ButtonBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F6A7D8189AC83700FE6AD2 /* Debug */,
+				D5F6A7D9189AC83700FE6AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F6A7DA189AC83700FE6AD2 /* Build configuration list for PBXNativeTarget "ButtonBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F6A7DB189AC83700FE6AD2 /* Debug */,
+				D5F6A7DC189AC83700FE6AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5F6A7DD189AC83700FE6AD2 /* Build configuration list for PBXNativeTarget "ButtonBlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F6A7DE189AC83700FE6AD2 /* Debug */,
+				D5F6A7DF189AC83700FE6AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5F6A79D189AC83700FE6AD2 /* Project object */;
+}
