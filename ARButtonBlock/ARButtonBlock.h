@@ -10,7 +10,7 @@
 
 @class ARButtonBlock;
 
-typedef void(^ARButtonTouchUpInsideBlock)();
+typedef void(^ARButtonTouchUpInsideBlock)(ARButtonBlock *button);
 
 @interface ARButtonBlock : UIButton
 

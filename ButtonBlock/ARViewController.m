@@ -26,7 +26,7 @@
     // SIMPLE EXAMPLE - SINGLE BUTTON
     NSString *string = @"Touched!";
 
-	[self.button setTouchUpInsideBlock:^{
+	[self.button setTouchUpInsideBlock:^(ARButtonBlock *button) {
         [[[UIAlertView alloc] initWithTitle:string message:nil delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil] show];
     }];
     
@@ -48,15 +48,27 @@
 {
     ARButtonBlock *headerButton = [[ARButtonBlock alloc] init];
     [headerButton setTitle:[NSString stringWithFormat:@"Section %d Header Collapse Button", (int)section] forState:UIControlStateNormal];
-    [headerButton setBackgroundColor:[UIColor colorWithRed:0.0f green:0.478431f blue:1.0f alpha:1.0f]];
-    [headerButton setTouchUpInsideBlock:^{
+    [headerButton setBackgroundColor:[self headerButtonColorForSection:section]];
+    
+    [headerButton setTouchUpInsideBlock:^(ARButtonBlock *button) {
         self.sections[section] = [NSNumber numberWithBool:![self.sections[section] boolValue]];
+        [button setBackgroundColor:[self headerButtonColorForSection:section]];
         [tableView reloadData];
     }];
     return headerButton;
 }
 
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (UIColor *)headerButtonColorForSection:(NSInteger)section
+{
+    if ([self.sections[section] boolValue])
+    {
+        return [UIColor colorWithRed:0.0f green:0.478431f blue:1.0f alpha:1.0f];
+    }
+    
+    return [UIColor lightGrayColor];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     [cell.textLabel setText:[NSString stringWithFormat:@"Section %d Cell %d", (int)indexPath.section, (int)indexPath.row]];

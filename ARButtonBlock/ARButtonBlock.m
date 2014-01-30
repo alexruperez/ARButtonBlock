@@ -30,7 +30,7 @@
 {
     if (self.touchUpInsideBlock)
     {
-        self.touchUpInsideBlock();
+        self.touchUpInsideBlock(self);
     }
 }
 
