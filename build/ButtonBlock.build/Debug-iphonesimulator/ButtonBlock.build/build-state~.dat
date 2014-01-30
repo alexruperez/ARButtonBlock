@@ -1,0 +1,415 @@
+TButtonBlock
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch.pch ButtonBlock/ButtonBlock-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARButtonBlock.o /Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/main.o /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARViewController.o /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARAppDelegate.o /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock normal x86_64
+cCompileStoryboard /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Base.lproj/Main.storyboard
+cCopyStringsFile /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/en.lproj/InfoPlist.strings ButtonBlock/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Images.xcassets
+cProcessInfoPlistFile /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/Info.plist /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Info.plist
+cGenerateDSYMFile /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app.dSYM /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock
+cTouch /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c000000005282A55C0000000000000176
+t1384293724
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c000000005240D72100000000000003B5
+t1379981089
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526D3E2C00000000000001A0
+t1382891052
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000526D3E300000000000445870
+t1382891056
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000526D3E31000000000088C680
+t1382891057
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000526D3E390000000001DB9910
+t1382891065
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c000000005240D7610000000000000AC9
+t1379981153
+s2761
+
+N/Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.m
+c0000000052EAAD5300000000000003A2
+t1391111507
+s930
+
+N/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.m
+c0000000052EAAD5300000000000007F0
+t1391111507
+s2032
+
+N/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.m
+c0000000052EAAF630000000000000550
+t1391112035
+s1360
+
+N/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Base.lproj/Main.storyboard
+c0000000052EAAE590000000000001403
+t1391111769
+s5123
+
+N/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Info.plist
+c0000000052EAAD530000000000000627
+t1391111507
+s1575
+
+N/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Prefix.pch
+c0000000052EAAD530000000000000158
+t1391111507
+s344
+
+N/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Images.xcassets
+c0000000052EAAD530000000000000088
+t1391111507
+s136
+
+N/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/en.lproj/InfoPlist.strings
+c0000000052EAAD53000000000000002D
+t1391111507
+s45
+
+N/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/main.m
+c0000000052EAAD530000000000000168
+t1391111507
+s360
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARAppDelegate.o
+t1391112051
+s71576
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARButtonBlock.o
+t1391112051
+s51396
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARViewController.o
+t1391112051
+s77292
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ButtonBlock.LinkFileList
+c0000000052EAAF6D000000000000023E
+t1391112045
+s574
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/main.o
+t1391112050
+s3912
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/assetcatalog_dependencies.txt
+t1391112056
+s370
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/assetcatalog_generated_info.plist
+t1391112056
+s525
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app
+t1391112056
+s306
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app.dSYM
+t2
+s0
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/Base.lproj/Main.storyboardc
+t1391112055
+s170
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock
+t1391112055
+s34436
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/Info.plist
+t1391112056
+s1280
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/PkgInfo
+t1391112056
+s8
+
+N/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/en.lproj/InfoPlist.strings
+t1391112055
+s42
+
+N/var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch.pch
+t1391112049
+s115044
+
+CBuild AST from /Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.m
+r0
+
+CBuild AST from /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.m
+r0
+
+CBuild AST from /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.m
+r0
+
+CBuild AST from /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies05a61bede69ab841^a56a27ede69ab841^---0#1#1#--18"Check dependencies36"34CCB1BF-08FD-4E78-8FD1-BA65C942B075-
+
+CCompileAssetCatalog /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Images.xcassets
+s412804855.030050
+e412804856.567100
+r1
+xCompileAssetCatalog
+x/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app
+x/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/LaunchImage-700-568h@2x.png
+o/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/Assets.car
+o/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"CompileAssetCatalog build/Debug-iphonesimulator/ButtonBlock.app ButtonBlock/Images.xcassets91"CompileAssetCatalog build/Debug-iphonesimulator/ButtonBlock.app ButtonBlock/Images.xcassets49d807f7e69ab841^ba2d91f8e69ab841^-398"/* com.apple.actool.compilation-results *//Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/LaunchImage-700-568h@2x.png/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/Assets.car/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@78"file:///Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Images.xcassets/0000000000000000^1165"CompileAssetCatalog build/Debug-iphonesimulator/ButtonBlock.app ButtonBlock/Images.xcassets    cd /Users/alexruperez/Documents/ARButtonBlock    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --target-device ipad --compress-pngs --compile /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Images.xcassets36"8C335CDE-0635-4EEC-8209-02D1BEC9CBA4-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/i386/ARAppDelegate.o /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/i386/ARButtonBlock.o /Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/i386/ARViewController.o /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/i386/main.o /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARAppDelegate.o /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412804849.954882
+e412804851.127656
+r1
+xCompileC
+xbuild/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARAppDelegate.o
+x/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.m
+d/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.m208"CompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARAppDelegate.o ButtonBlock/ARAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1496f4f1e69ab841^fd8621f3e69ab841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.m0000000000000000^3740"CompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARAppDelegate.o ButtonBlock/ARAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexruperez/Documents/ARButtonBlock    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexruperez/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-generated-files.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-own-target-headers.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-all-target-headers.hmap -iquote /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-project-headers.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/DerivedSources/x86_64 -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/DerivedSources -F/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator -include /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch -MMD -MT dependencies -MF /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARAppDelegate.d --serialize-diagnostics /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARAppDelegate.dia -c /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.m -o /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARAppDelegate.o36"F0D032C9-D6B2-460B-B7D9-5047F8DD3CB3-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARButtonBlock.o /Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412804849.952719
+e412804851.104048
+r1
+xCompileC
+xbuild/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARButtonBlock.o
+x/Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.m
+d/Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.m210"CompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARButtonBlock.o ARButtonBlock/ARButtonBlock.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerae12f4f1e69ab841^f5a21af3e69ab841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.m0000000000000000^3744"CompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARButtonBlock.o ARButtonBlock/ARButtonBlock.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexruperez/Documents/ARButtonBlock    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexruperez/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-generated-files.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-own-target-headers.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-all-target-headers.hmap -iquote /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-project-headers.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/DerivedSources/x86_64 -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/DerivedSources -F/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator -include /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch -MMD -MT dependencies -MF /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARButtonBlock.d --serialize-diagnostics /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARButtonBlock.dia -c /Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.m -o /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARButtonBlock.o36"8A8C6233-080A-4618-95CC-CE0356B16901-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARViewController.o /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412804849.953991
+e412804851.131975
+r1
+xCompileC
+xbuild/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARViewController.o
+x/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.m
+d/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.h
+d/Users/alexruperez/Documents/ARButtonBlock/ARButtonBlock/ARButtonBlock.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.m214"CompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARViewController.o ButtonBlock/ARViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4777f4f1e69ab841^d6c921f3e69ab841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.m0000000000000000^3758"CompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARViewController.o ButtonBlock/ARViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexruperez/Documents/ARButtonBlock    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexruperez/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-generated-files.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-own-target-headers.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-all-target-headers.hmap -iquote /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-project-headers.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/DerivedSources/x86_64 -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/DerivedSources -F/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator -include /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch -MMD -MT dependencies -MF /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARViewController.d --serialize-diagnostics /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARViewController.dia -c /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARViewController.m -o /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARViewController.o36"116578CA-482F-49D5-8C06-D6BB725C5C33-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CCompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/main.o /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412804849.953242
+e412804850.944154
+r1
+xCompileC
+xbuild/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/main.o
+x/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/main.m
+d/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ARAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/main.m190"CompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/main.o ButtonBlock/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7b2df4f1e69ab841^17b7f1f2e69ab841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/main.m0000000000000000^3686"CompileC build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/main.o ButtonBlock/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexruperez/Documents/ARButtonBlock    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexruperez/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-generated-files.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-own-target-headers.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-all-target-headers.hmap -iquote /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-project-headers.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/DerivedSources/x86_64 -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/DerivedSources -F/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator -include /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch -MMD -MT dependencies -MF /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/main.dia -c /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/main.m -o /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/main.o36"9B0D0A8C-0A87-4932-840B-CC7590BCFA5F-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CCompileStoryboard /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Base.lproj/Main.storyboard
+s412804855.029281
+e412804855.190832
+r1
+xCompileStoryboard
+x/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"CompileStoryboard ButtonBlock/Base.lproj/Main.storyboard56"CompileStoryboard ButtonBlock/Base.lproj/Main.storyboard2d9907f7e69ab841^f5da30f7e69ab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Base.lproj/Main.storyboard0000000000000000^854"CompileStoryboard ButtonBlock/Base.lproj/Main.storyboard    cd /Users/alexruperez/Documents/ARButtonBlock    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/Base.lproj/Main.storyboardc /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/Base.lproj/Main.storyboard36"BBD68B0C-1FA4-4F2F-99EE-5872804A46F9-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CCopyStringsFile /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/en.lproj/InfoPlist.strings ButtonBlock/en.lproj/InfoPlist.strings
+s412804855.029498
+e412804855.032359
+r1
+xCopyStringsFile
+x/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/en.lproj/InfoPlist.strings
+xButtonBlock/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy ButtonBlock/en.lproj/InfoPlist.strings125"CopyStringsFile build/Debug-iphonesimulator/ButtonBlock.app/en.lproj/InfoPlist.strings ButtonBlock/en.lproj/InfoPlist.stringsa8a707f7e69ab841^564908f7e69ab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/en.lproj/InfoPlist.strings0000000000000000^599"CopyStringsFile build/Debug-iphonesimulator/ButtonBlock.app/en.lproj/InfoPlist.strings ButtonBlock/en.lproj/InfoPlist.strings    cd /Users/alexruperez/Documents/ARButtonBlock    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/en.lproj -- ButtonBlock/en.lproj/InfoPlist.strings36"CA9E638F-8349-47BA-9B0C-1B2D33EB0C94-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CGenerateDSYMFile /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app.dSYM /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock
+s412804856.571319
+e412804856.666935
+r1
+xGenerateDSYMFile
+x/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app.dSYM
+x/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generate /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app.dSYM121"GenerateDSYMFile build/Debug-iphonesimulator/ButtonBlock.app.dSYM build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlockdb4f92f8e69ab841^66bbaaf8e69ab841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app.dSYM003410a4deffdf42^661"GenerateDSYMFile build/Debug-iphonesimulator/ButtonBlock.app.dSYM build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock    cd /Users/alexruperez/Documents/ARButtonBlock    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock -o /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app.dSYM36"7C927F3B-8B13-4413-A8BD-E7DEBC3F3B0B-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CLd /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock normal i386
+r0
+
+CLd /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock normal x86_64
+s412804851.133159
+e412804855.028256
+r1
+xLd
+x/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock
+xnormal
+xx86_64
+d/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ButtonBlock.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARButtonBlock.o
+d/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/main.o
+d/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARViewController.o
+d/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ARAppDelegate.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libsystem_stats.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Link /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock72"Ld build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock normal x86_64663022f3e69ab841^4b3d07f7e69ab841^---0#0#1#--1397"Ld build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock normal x86_64    cd /Users/alexruperez/Documents/ARButtonBlock    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator -F/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator -filelist /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ButtonBlock.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/Objects-normal/x86_64/ButtonBlock_dependency_info.dat -o /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/ButtonBlock36"6E1485DA-ED45-4CCC-91D4-27D1AEA16448-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CProcessInfoPlistFile /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/Info.plist /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Info.plist
+s412804856.567615
+e412804856.570762
+r1
+xProcessInfoPlistFile
+x/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/Info.plist
+x/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Process /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Info.plist110"ProcessInfoPlistFile build/Debug-iphonesimulator/ButtonBlock.app/Info.plist ButtonBlock/ButtonBlock-Info.plist355f91f8e69ab841^4f1e92f8e69ab841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Info.plist0000000000000000^897"ProcessInfoPlistFile build/Debug-iphonesimulator/ButtonBlock.app/Info.plist ButtonBlock/ButtonBlock-Info.plist    cd /Users/alexruperez/Documents/ARButtonBlock    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Info.plist -genpkginfo /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/assetcatalog_generated_info.plist -o /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app/Info.plist36"9C227F3F-C0C9-4D14-AFB7-577A1923054E-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CProcessPCH /Users/alexruperez/Library/Developer/Xcode/DerivedData/ButtonBlock-dfocsyivbdmlxaervdhpltfccuqv/Index/PrecompiledHeaders/ButtonBlock-Prefix-clguoglyeyaieuaqquarmcnjkigs_ast/ButtonBlock-Prefix.pch.pch ButtonBlock/ButtonBlock-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/alexruperez/Library/Developer/Xcode/DerivedData/ButtonBlock-dfocsyivbdmlxaervdhpltfccuqv/Index/PrecompiledHeaders/ButtonBlock-Prefix-fhfqfaiilqgesghdlgnknjnyitht_ast/ButtonBlock-Prefix.pch.pch ButtonBlock/ButtonBlock-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-douvwpmdnuhgydbmfjintrrtyyzr/ButtonBlock-Prefix.pch.pch ButtonBlock/ButtonBlock-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch.pch ButtonBlock/ButtonBlock-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412804845.158410
+e412804849.951759
+r1
+xProcessPCH
+x/var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch.pch
+xButtonBlock/ButtonBlock-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile ButtonBlock/ButtonBlock-Prefix.pch308"ProcessPCH /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch.pch ButtonBlock/ButtonBlock-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler45bd28ede69ab841^f8a8f3f1e69ab841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Prefix.pch0000000000000000^3796"ProcessPCH /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch.pch ButtonBlock/ButtonBlock-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexruperez/Documents/ARButtonBlock    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/alexruperez/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-generated-files.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-own-target-headers.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-all-target-headers.hmap -iquote /Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/ButtonBlock-project-headers.hmap -I/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/DerivedSources/x86_64 -I/Users/alexruperez/Documents/ARButtonBlock/build/ButtonBlock.build/Debug-iphonesimulator/ButtonBlock.build/DerivedSources -F/Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch.d -c /Users/alexruperez/Documents/ARButtonBlock/ButtonBlock/ButtonBlock-Prefix.pch -o /var/folders/hj/z6tc13bd4tlbg8dn5bpt1lmc0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/ButtonBlock-Prefix-gqzqubrqoluzehfzqgeuuwzgbgdn/ButtonBlock-Prefix.pch.pch36"470BCF7F-D03A-4AAA-B0A7-BA1B44FCDE27-
+bE2317A32-34F7-4003-9315-0A61AB4561AC
+
+CTouch /Users/alexruperez/Documents/ARButtonBlock/build/Debug-iphonesimulator/ButtonBlock.app
+r0
+

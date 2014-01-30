@@ -8,6 +8,8 @@ UIButton subclass with touchUpInside as block helper.
 
 <img src="https://raw.github.com/alexruperez/ARButtonBlock/master/ARButtonBlock.png" alt="ARButtonBlock" title="ARButtonBlock" style="display:block; margin: 10px auto 30px auto; align:center">
 
+Example included! UIButton in section header that collapses UITableView sections.
+
 # Usage
 
 ## Installation
