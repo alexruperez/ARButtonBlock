@@ -53,25 +53,9 @@
     [headerButton setTouchUpInsideBlock:^(ARButtonBlock *button) {
         self.sections[section] = [NSNumber numberWithBool:![self.sections[section] boolValue]];
         [button setBackgroundColor:[self headerButtonColorForSection:section]];
-        [self switchTableView:tableView cellsInSection:section];
+        [tableView reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationFade];
     }];
     return headerButton;
-}
-
-- (void)switchTableView:(UITableView *)tableView cellsInSection:(NSInteger)section
-{
-    NSMutableArray *indexPaths = [[NSMutableArray alloc] init];
-    for (int i = 0; i < [self.sections count]; i++) {
-        [indexPaths addObject:[NSIndexPath indexPathForRow:i inSection:section]];
-    }
-    if ([self.sections[section] boolValue])
-    {
-        [tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
-    }
-    else
-    {
-        [tableView deleteRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationMiddle];
-    }
 }
 
 - (UIColor *)headerButtonColorForSection:(NSInteger)section
